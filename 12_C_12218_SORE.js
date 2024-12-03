@@ -47,4 +47,3 @@ testCases.forEach(({ label, total, bayar, method }) => {
   processPayment(total, bayar, method);
   console.log('_'.repeat(50));
 });
-
