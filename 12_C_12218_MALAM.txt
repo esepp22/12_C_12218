@@ -1,0 +1,20 @@
+PBO 12 
+
+1. Jelaskan bagaimana konsep exception handling dapat membantu meningkatkan kualitas dan ketahanan suatu sistem atau aplikasi!
+- Exception handling itu penting banget buat bikin sistem jadi lebih tangguh. Jadi, kalau ada kesalahan (pengecualian), seperti input user yang salah atau masalah teknis, kita bisa langsung nangani tanpa bikin aplikasi berhenti mendadak.
+
+2. Dalam sistem yang telah Anda kerjakan sebelumnya, apa peran try-catch dalam menangani error dan bagaimana cara kerja finally dalam sistem tersebut?
+
+- Peran try-catch:
+Dalam sistem yang saya kerjakan, blok try-catch dipakai buat nangkep error waktu proses pembayaran atau validasi data mahasiswa. Kalau ada error, misalnya data input user salah atau metode pembayaran nggak valid, catch langsung nangkep dan kasih pesan yang jelas.
+Modul bilang, dengan try-catch, kita bisa mencegah aplikasi berhenti tiba-tiba karena error. Jadi, aplikasi tetap jalan meskipun ada kesalahan.
+
+- Cara kerja finally:
+Finally itu bagian yang bakal selalu jalan, mau ada error atau nggak. Di sistem yang saya buat, finally dipakai buat membersihkan resource, kalo kata pak rangga tukang bersih-bersih, seperti menampilkan pesan Cleaning up resources. Modul juga bilang, finally penting buat memastikan semua operasi pembersihan tetap dilakukan, misalnya menutup koneksi database atau menyelesaikan proses penting.
+
+3. Deskripsikan kelas PEMOGRAMAN BERBASIS OBYEK dalam 2 kata!
+- "Terus TRY"
+
+
+link : 
+https://github.com/esepp22/12_C_12218.git
